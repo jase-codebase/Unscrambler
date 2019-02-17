@@ -20,7 +20,7 @@ namespace Unscrambler
         public UnscrambleForm()
         {
             this.InitializeComponent();
-            this.txtDictionaryPath.Text = @"C:\Users\Jacen\Documents\Dictionaries\WordscapeDictionary.txt";
+            this.txtDictionaryPath.Text = @"C:\xxx\WordscapeDictionary.txt";
             TableLayoutPanelCellPosition pos = this.tableLayoutPanel1.GetCellPosition(this.btnGetWords);
             this.tableLayoutPanel1.RowStyles[pos.Row].Height = 0;
             this.Height = this.Height - 30;
